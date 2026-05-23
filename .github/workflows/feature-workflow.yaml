@@ -12,7 +12,7 @@ jobs:
     uses: mneeli-actions/github-workflows/.github/workflows/java-feature-pipeline.yaml@main
     with:
       project: 'roboshop'
-      component: 'catalogue'
+      component: 'shipping'
     secrets: inherit
     permissions:
       contents: read
